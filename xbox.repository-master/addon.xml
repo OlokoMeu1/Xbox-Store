@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addon id="repository.xbox" name="Xbox Store" provider-name="Microsoft" version="1.1.0">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0" />
+    </requires>    
+    <extension name="Xbox Store" point="xbmc.addon.repository">
+        <dir>
+            <info compressed="false">https://github.com/OlokoMeu1/Xbox-Store</info>
+            <checksum>https://github.com/OlokoMeu1/Xbox-Store</checksum>
+            <datadir zip="true">https://github.com/OlokoMeu1/Xbox-Store</datadir>
+        </dir>
+        <dir minversion="18.9.700">
+            <info compressed="false">https://github.com/OlokoMeu1/Xbox-Store</info>
+            <checksum>https://github.com/OlokoMeu1/Xbox-Store</checksum>
+            <datadir zip="true">https://github.com/OlokoMeu1/Xbox-Store</datadir>
+        </dir>
+        <dir maxversion="18.9.0">
+            <info compressed="false">https://github.com/OlokoMeu1/Xbox-Store</info>
+            <checksum>https://github.com/OlokoMeu1/Xbox-Store</checksum>
+            <datadir zip="true">https://github.com/OlokoMeu1/Xbox-Store</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en"></summary>
+        <description lang="en"></description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
